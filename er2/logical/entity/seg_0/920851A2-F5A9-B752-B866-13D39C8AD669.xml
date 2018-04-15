@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="920851A2-F5A9-B752-B866-13D39C8AD669" name="Genero">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:17:43 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_genero" id="05D022F6-3272-38DA-50D7-7062E307AF7E">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:17:48 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="DB7DEBF4-68FD-1AD6-8DB9-B1E31561A3C4">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:17:51 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="96B4DED2-AD43-853D-6112-2392A62FA879">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:17:54 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cancion" id="1BD296E7-E009-6095-C18B-7BF1D4BF0B0A">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:20:29 UTC</createdTime>
+<generatorID>3C7410FD-F53C-5A52-8D62-77A6B8F0B906</generatorID>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<referedAttribute>D6B2EF3F-7355-B5D7-4CB1-4D3A36AC588E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artista" id="8B6D28FF-D408-968E-E477-40F3A8F34A9C">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:27:54 UTC</createdTime>
+<generatorID>E84D05C8-8F54-48EA-611E-6F4A011D4802</generatorID>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<referedAttribute>451098C2-5844-6DF8-DF16-79D920448473</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE7652AE-0A4B-C708-00B3-67944C693966" name="Genero PK">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:18:02 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05D022F6-3272-38DA-50D7-7062E307AF7E</attributeRef>
+<attributeRef>1BD296E7-E009-6095-C18B-7BF1D4BF0B0A</attributeRef>
+<attributeRef>8B6D28FF-D408-968E-E477-40F3A8F34A9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

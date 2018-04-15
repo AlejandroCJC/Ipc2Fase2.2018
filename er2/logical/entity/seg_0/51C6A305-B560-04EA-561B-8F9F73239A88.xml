@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51C6A305-B560-04EA-561B-8F9F73239A88" name="Listas_reproduc.">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:08 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_listas" id="3FF51106-2E6A-9317-4AF7-5EDB123766B0">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:23 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D8BB9412-55A5-BF2D-5DA8-7DE2299519AA">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:28 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="0EC5A000-83E9-0B74-B9CB-012A7496BA95">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:31 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="2B374EFA-80C3-54A2-29D2-8C5BCBFDFD10">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:36 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="65DA4FD3-A9EC-6C2D-BA3D-FB0C42A779B3">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:23:02 UTC</createdTime>
+<generatorID>1CD955E9-F56F-1218-A1E3-5C654A1A3927</generatorID>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<referedAttribute>20E32F55-FA8F-2E4F-C96B-69DFB86F4AFC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8300800C-C7F9-CB06-4831-1B9DB8A5E324" name="Listas_reproduc. PK">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:10:28 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FF51106-2E6A-9317-4AF7-5EDB123766B0</attributeRef>
+<attributeRef>65DA4FD3-A9EC-6C2D-BA3D-FB0C42A779B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

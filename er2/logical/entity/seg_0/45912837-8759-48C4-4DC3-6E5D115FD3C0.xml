@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45912837-8759-48C4-4DC3-6E5D115FD3C0" name="Artista">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:14 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_artista" id="451098C2-5844-6DF8-DF16-79D920448473">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:21 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2BFD78B4-781B-7B34-D577-0ADC25DCC904">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:24 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año_formacion" id="AF3355AB-E35B-3A6B-08BB-DA3B2E78B60B">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:36 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="3C92642A-753A-7D38-5E32-B2010D4BBB41">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:44 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="50A6E1BA-293D-9AC3-B088-45D281CA6FED">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:48 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="0D99B4DE-B047-6D38-3F3D-90FAE347E574">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:55 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Redes sociales." id="DD61BE2B-0630-6633-8B6F-F9989F041B1E">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:09:19 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="279AA7D9-C13F-70C8-9FBA-C5CF8B03A62D" name="Artista PK">
+<createdBy>AlejandroCJC</createdBy>
+<createdTime>2018-03-20 05:08:32 UTC</createdTime>
+<ownerDesignName>er2</ownerDesignName>
+<engineerTo>
+<item key="5DCECD4E-3EF9-F645-7044-F5020A43764A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>451098C2-5844-6DF8-DF16-79D920448473</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
